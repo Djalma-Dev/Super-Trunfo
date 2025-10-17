@@ -105,5 +105,17 @@ int main() {
     printf("\n");
     printf("Cadastro concluído com sucesso!\n");
 
+     // Exibição das comparações: 
+    
+        printf("\n Comparação: (Atributo: Área) \n");
+
+    printf("Carta 1 - %s (%s): %.2f km²\n", cidade1, estado1, area1);
+    printf("Carta 2 - %s (%s): %.2f km²\n", cidade2, estado2, area2);
+
+    if(area1 > area2) {
+        printf("\nResultado: Carta 1 (km2) venceu!\n", cidade1);
+    } else {
+        printf("\nResultado: Carta 2 (km2) venceu!\n", cidade2);
+    }
+
     return 0;
-}
